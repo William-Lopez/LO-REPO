@@ -5,3 +5,16 @@ th {
 #releasedate{
     border: 3px red dashed;
 }
+ul {
+    font-style: italic;
+}
+body {
+    background-image: url("https://upload.wikimedia.org/wikipedia/en/b/be/MBDTF_ALT.jpg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+#fontface{
+    font-family: monospace;
+    font-weight: bold;
+    font-size: larger;
+}
