@@ -10,3 +10,19 @@ h1{
 th{
     font-size: larger;
 }
+a{
+    text-decoration: underline;
+}
+a:visited{
+    color: green;
+}
+a:hover{
+    font-weight: bold;
+}
+a:active{
+    text-decoration: none;
+}
+#beverages{
+    width: 400px;
+    height: 200px;
+}
