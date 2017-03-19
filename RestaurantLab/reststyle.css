@@ -5,4 +5,8 @@
 h1{
     text-decoration: underline;
     color: darkslategrey;
+    font-family: fantasy;
+}
+th{
+    font-size: larger;
 }
