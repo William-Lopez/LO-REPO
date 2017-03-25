@@ -3,54 +3,78 @@
     <head>
         <Title>Menu</Title>
     <style>
-        td{
+        p{
             font-style: italic;
         }
         body{
             background-color: cadetblue;
         }
+        td{
+            font-style: italic;
+        }
     </style>
-    <link href="reststyle.css"
+        <link rel="stylesheet" 
+        type="text/css" 
+        href="css/bootstrap.css"/>
+        <link href="reststyle.css"
         rel="stylesheet"
         type="text/css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
     </head>
-    <body>
-    <h1><center>Willy's Fat Burs</center></h1>
-        <hr>
-        <br>
-    <div>
-        &emsp;<a href="HomePage.html">Home</a>
-        &emsp;<a href="Menu.html">Menu</a>
-        &emsp;<a href="Contact.html">Contact Us</a>
+    <div class="container-fluid" style="background-color: white;">
+        <div class="row">
+            <h1 class="col-lg-12, col-md-12, col-sm-12, col-xs-12" style="color: #ffa71a"><center>Willy's Fat Burs</center></h1>    
+            <br>
+            <br>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div style="background-color: white;">
+                <br>
+                <br>
+                <ul class="nav nav-tabs">
+                    <li><a href="HomePage.html"><span class="glyphicon glyphicon-home"></span></a></li>
+                    <li class="active"><a href="Menu.html">Menu</a></li>
+                    <li><a href="Contact.html">Contact Us</a></li>
+                </ul> 
+            </div>
+        </div>
     </div>
         <br>
-        <hr>
-    <div>
-        <table width="100%">
-            <tr>
-                <th>Burgers and Fries</th>
-                <th>Hot Dog and Chips</th>
-                <th>Italian Sasusage and Peppers</th>
-            </tr>
-            <tr>
-                <td width="400px">An American Classic! Your choice - with or without cheese pickle, onion, tomato, and lettuce served with our famous thick cut french fries $7.95</td>
-                <td width="400px">A Summer Classic! Your choice - White or wheat bun relish, mustard, and ketchup served with our house-made chips $7.95</td>
-                <td width="400px">An All-Time Favorite! your choice - mild or spicy cloe slaw served with garlic mashers $10.95</td>
-            </tr>
-        </table>
         <br>
-        <table width="100%"/>
-            <tr>
-                <th>Tenderlion Sandwhich and Chips</th>
-                <th>House Salad</th>
-                <th>Brisket Sandwhich and Fries</th>
-            </tr>
-             <tr>
-                <td width="400px">Really hits the spot! Plain or Sesame seed bun pickle, onion, tomato, and lettuce served with our house-made chips $8.95</td>
-                <td width="400px">On the Lighter Side Your choice - with or without cheese Iceberg, tomatoes, peppers Thousand Island or ranch dressing served with a dinner roll $6.95</td>
-                <td width="400px">A Taste of Texas! Smoked Brisket on thick-cut Texas Toast Cole served with our famous thick-cut french fries $7.95</td>
-            </tr>
-        </table>
+        <body style="background-color: cadetblue;">
+    <div class="container">
+    <div class="row">
+        <div class="col-lg-4, col-md-4, col-sm-4">
+            <h3>Burgers and Fries</h3>
+            <p>An American Classic! Your choice - with or without cheese pickle, onion, tomato, and lettuce served with our famous thick cut french fries $7.95</p>
+        </div>
+        <div class="col-lg-4, col-md-4, col-sm-4">
+            <h3>Hot Dog and Chips</h3>
+            <p>A Summer Classic! Your choice - White or wheat bun relish, mustard, and ketchup served with our house-made chips $7.95</p>
+        </div>
+        <div class="col-lg-4, col-md-4, col-sm-4">
+            <h3>Italian Sasusage and Peppers</h3>
+            <p>An All-Time Favorite! your choice - mild or spicy cloe slaw served with garlic mashers $10.95</p>
+        </div>
+    </div>
+    </div>
+    <div class="container">
+    <div class="row">
+        <div class="col-lg-4, col-md-4, col-sm-4">
+            <h3>Tenderlion Sandwhich and Chips</h3>
+            <p>Really hits the spot! Plain or Semame seed bun pickle, onion, tomato, and lettuce served with out house-made chips $8.95</p>
+        </div>
+        <div class="col-lg-4, col-md-4, col-sm-4">
+            <h3>House Salad</h3>
+            <p>On the Lighter Side Your choice - with or without cheese Iceberg, tomatoes, peppers Thousand Island or ranch dressing served with a dinner roll $6.95</p>
+        </div>
+        <div class="col-lg-4, col-md-4, col-sm-4">
+            <h3>Brisket Sandwhich and Fries</h3>
+            <p>A Taste of Texas! Smoked Brisket on thick-cut Texas Toast Cole served with our famous thick-cut french fries $7.95</p>
+        </div>
+    </div>
     </div>
     <br>
     <div>
@@ -80,8 +104,7 @@
         </table>
     </div>
         <br>
-        <hr>
-    <div id="footer">
+    <div style="background-color: white" id="footer">
         <center>
             <p>
                 00001 Willy's Fat Bur Court, Piana, Alaska, 39093
